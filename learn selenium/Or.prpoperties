@@ -1,0 +1,29 @@
+url=https://www.facebook.com/
+fbun_id=//input[@data-testid='royal_email']
+fb_pw=//input[@name='pass']
+fb_login=//button[@name='login']
+
+#automationpractice
+url1=https://itera-qa.azurewebsites.net/home/automation
+name=//input[@id='name']
+number=//input[@aria-describedby='phone']
+email=//input[@type='email' and @id='email']
+pass=//input[contains(@type,'passwo')]
+address=//textarea[starts-with(@id,'addre')]
+submit=//button[text()='Submit']
+radio=//input[@type='radio' and @id='male']
+mon=//input[@type='checkbox' and @id='monday']
+wed=//input[contains(@id,'wed')]
+year=//label[text()='1 year']
+travel=//select[starts-with(@class,'custom-se')]
+tool1=//label[contains(@for,'enium')]
+tool2=//label[text()='TestNG']
+tool3=//label[contains(@for,'cumber')]
+file=//input[@class='custom-file-input']
+
+
+#demoqa
+url2=https://demoqa.com/alerts
+simple=//button[@class='btn btn-primary' and @id='alertButton']
+inter=//div[text()='Interactions']
+srt=//span[text()='Sortable']
