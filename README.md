@@ -58,13 +58,11 @@ action.build().perform();
 java```
 Alert alert = driver.switchTo().alert();
 alert.accept();
-```
 
 ### **Day 5: Using XML for Test Case Execution**
 **Objective:** Learn how to execute multiple test cases using TestNG and XML files. The XML file is used to define the test suite and run the automation scripts:
 
 **TestNG XML File:**
-java```
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="false" name="Suite">
   <test name="Test">
@@ -73,7 +71,7 @@ java```
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-```
+
 
 **Key Features and Practices**
 **WebDriverWait:** Used to wait for elements to become visible or clickable before interacting with them.
